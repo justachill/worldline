@@ -16,7 +16,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo "Testing.."
-                sh '''
+                bat '''
                 python hello.py
                 '''
             }
